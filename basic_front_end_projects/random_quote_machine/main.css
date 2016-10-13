@@ -1,0 +1,107 @@
+
+#header{
+  padding-bottom:20px;
+  color: #046380;
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize;
+}
+#quote-container{
+  height:200px;
+}
+#quote-title{
+  height:30px;
+  font-family: 'Oswald', sans-serif;
+  color: #A7A37E;
+}
+#quote-content{
+  height: 140px;
+  margin-bottom: 20px;
+  font-family: 'Slabo 27px', serif;
+  color: #002F2F;
+  font-size: 1.3em;
+}
+#twitter{
+  height: 100px ;
+  padding-top: 20px;
+}
+#quoteBtn {
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px #999;
+  background-color: #002F2F;
+  color: #EFECCA;
+  padding: 5px 10px;
+	font-size: 1.7em;
+  font-family: 'Gidugu', sans-serif;;
+}
+#quoteBtn:hover {
+  background-color: #046380
+}
+#quoteBtn:active {
+			  background-color: #002F2F;
+			  box-shadow: 0 2px #666;
+			  transform: translateY(4px);
+}
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button:hover .icon-twitter{
+  color: white;
+}
