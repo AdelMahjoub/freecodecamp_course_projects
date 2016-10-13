@@ -1,0 +1,26 @@
+body{
+  padding-top: 100px;
+  background-color:#FCFFF5;
+}
+h4{
+  color: #91AA9D;
+  font-family: 'Gidugu', sans-serif;
+  font-size: 2em;
+}
+p{
+  color:#193441;
+  font-family: 'Times New Roman', serif;
+  font-size: 1.2em;
+}
+#demo a{
+  color: #3E606F;
+  ont-family: 'Quicksand', sans-serif;
+}
+.navbar a span{
+  font-family: 'Gidugu', serif;
+  color: #D1DBBD;
+  font-size: 1.5em;
+}
+footer{
+  height:100px;
+}
