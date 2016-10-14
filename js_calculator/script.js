@@ -9,10 +9,11 @@ window.onload= function(){
             var patt = /[\W]/;
             if(value == "c"){
                 subScreen.value = "";
-                screen.value = "";
+                screen.value = "0";
             }
             else if(!patt.test(subScreen.value[subScreen.value.length-1]) && value == "=") screen.value = eval(subScreen.value);
             else if(patt.test(value) && patt.test(subScreen.value[subScreen.value.length-1])) return false;
+            else if(/[/*+.=]/.test(value) && subScreen.value == "") return false;
             else subScreen.value += value;
         });
     }
