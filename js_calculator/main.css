@@ -1,3 +1,6 @@
+body{
+  background-color: #FCFFF5;
+}
 .container{
     padding-left:0;
     padding-right:0;
@@ -7,11 +10,14 @@
     height:480px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:20%;
+    margin-top:10%;
     border-radius: 30px 30px 60px 60px;
     padding:20px;
     box-shadow: 0px 0px 5px 1px;
-    background: -webkit-radial-gradient(top, #ECF0F1, #2C3E50 );
+    background: -webkit-radial-gradient(top, #D1DBBD, #91AA9D );
+    border: 1px solid #91AA9D;
+    border-bottom : 2px solid #91AA9D;
+    box-shadow: 7px 10px 34px rgba(0, 0, 0, 0.68), inset -1px -6px 12px  #91AA9D;
 }
 #brand{
     height:30px;
@@ -31,7 +37,7 @@
     height:50px;
     box-shadow: inset 0 0 2px 1px;
     font-size: 1.5em;
-    background-color: white;
+    background-color: #FCFFF5;
     border-radius: 10px 10px 0 0;
 }
 #sub-screen{
@@ -47,6 +53,7 @@
     box-shadow: inset 0 0 2px 1px;
     font-size: 1.5em;
     border-radius: 0 0 10px 10px;
+  background-color: #FCFFF5;
 }
 .butt-row{
     height:50px;
@@ -69,12 +76,12 @@
     border: none;
     outline: none;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10%;
     box-shadow: 2px 2px 5px darkslategray;
     font-family: 'Courier';
     font-size:1.3em;
     opacity:1;
-    background-color: #2C3E50;
+    background:linear-gradient(#3E606F,#193441,#3E606F);
     color: #ECF0F1;
 }
 .butt:hover{
