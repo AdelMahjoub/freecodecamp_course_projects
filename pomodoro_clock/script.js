@@ -51,7 +51,7 @@ window.onload = function(){
                 if(workSec > 0){
                     workSec--;
                     timerScreen.innerHTML = workTime.toLocaleString(undefined, {minimumIntegerDigits: 2}) + ":" + workSec.toLocaleString(undefined, {minimumIntegerDigits: 2});
-                    workTimeScreen.innerHTML = workTime + ":" + workSec.toLocaleString(undefined, {minimumIntegerDigits: 2});
+                    workTimeScreen.innerHTML = workTime.toLocaleString(undefined, {minimumIntegerDigits: 2}) + ":" + workSec.toLocaleString(undefined, {minimumIntegerDigits: 2});
                 }
                 if(workSec == 0 && workTime > 0){
                     workTime --;
