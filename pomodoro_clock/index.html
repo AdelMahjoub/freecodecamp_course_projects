@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lobster|Orbitron" rel="stylesheet">
+    <title>pomodoro clock</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="clock">
+            <div id="brand"><h2>pomodoro clock &reg;</h2></div>
+            <div id="break"></div>
+            <div id="break-brand" class="text-brand"><p>break</p></div>
+            <div id="break-button-plus" class="butt"><span>+</span></div>
+            <div id="break-button-minus" class="butt"><span>-</span></div>
+            <div id="play-button"><span>&vrtri;</span></div>
+            <div id="work-led" class="led-red"></div>
+            <div id="work-button-plus" class="butt"><span>+</span></div>
+            <div id="work-button-minus" class="butt"><span>-</span></div>
+            <div id="work"></div>
+            <div id="work-brand" class="text-brand"><p>session</p></div>
+            <div id="timer"></div>
+            <div id="reset">RESET</div>
+        </div>
+    </div>
+    <audio id="audioPlus" src="https://crossorigin.me/http://www.soundjay.com/button/sounds/button-42.mp3" autostart="false" ></audio>
+    <audio id="audioMinus" src="https://crossorigin.me/http://www.soundjay.com/button/sounds/button-44.mp3" autostart="false" ></audio>
+    <audio id="audioStart" src="https://crossorigin.me/http://www.soundjay.com/button/sounds/beep-04.mp3" autostart="false" ></audio>
+    <audio id="workFinish" src="https://crossorigin.me/http://www.soundjay.com/misc/sounds/bell-ringing-03.mp3" autostart="false" ></audio>
+    <audio id="resetSound" src="http://www.soundjay.com/button/sounds/beep-06.mp3" autostart="false" ></audio>
+    <script src="script.js"></script>
+</body>
+</html>
