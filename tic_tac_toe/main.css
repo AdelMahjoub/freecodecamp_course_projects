@@ -1,0 +1,78 @@
+body{
+    margin-left: 0;
+    margin-right : 0;
+    width: 100%;
+    padding-top:5%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 456px;
+    height: 448px;
+    text-align: center;
+    background-color: #002635;
+}
+#menu, #score{
+    margin-left: auto;
+    margin-right: auto;
+    width: 446px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom : 10px;
+    text-align: center;
+    background-color: #5C4B51;
+    color: #EFE7BE;
+    box-shadow: inset 0 0 1px 2px;
+}
+#menu{
+    border-bottom: 5px solid #002635;
+    border-left:5px solid #002635;
+    border-right: 5px solid #002635;
+}
+#score{
+    border-top: 5px solid #002635;
+    border-left:5px solid #002635;
+    border-right: 5px solid #002635;
+}
+#score span{
+    display: inline-block;
+    width: 140px;
+}
+.cell{
+    display: inline-block;
+    margin-top: 4px;
+    width: 146px;
+    height:144px;
+}
+.cell input{
+    width: 146px;
+    height:142px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
+    display:inline-block;
+    visibility: hidden;
+    font-size: 7em;
+    background-color: transparent;
+}
+.odd{
+    background-color: #EFE7BE;
+}
+.even{
+    background-color: #D97925;
+}
+#message{
+    display: none;
+}
+#intro input{
+    color: #EFE7BE;
+    font-size : 1.5em;
+    background-color: transparent;
+}
+#o_type{
+    margin-right: 5px;
+}
+#x_type{
+    margin-left: 5px;
+}
+
