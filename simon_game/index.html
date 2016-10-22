@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="board">
+        <div class="cell red" id="0"></div>
+        <div class="cell yellow" id="1"></div>
+        <div id="brand">Simon Game</div>
+        <div class="cell blue" id="2"></div>
+        <div class="cell green" id="3"></div>
+    </div>
+    <div id="panel">
+        <div id="powerLed" class="led-red"></div>
+        <div id="scoreScreen"></div>
+        <div id="strictLed" class="led-red"></div>
+    </div>
+    <div id="pad">
+        <button id="powerBtn">ON/OFF</button>
+        <button id="startBtn">START</button>
+        <button id="resetBtn" class="hide">RESET</button>
+        <button id="strictBtn">STRICT</button>
+    </div>
+    
+
+    <audio id="sound0" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" autostart="false"></audio>
+    <audio id="sound1" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" autostart="false"></audio>
+    <audio id="sound2" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" autostart="false"></audio>
+    <audio id="sound3" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" autostart="false"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
