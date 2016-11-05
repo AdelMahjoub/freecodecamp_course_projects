@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.eot"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff2">
+    <link rel="stylesheet" href="main.css">
+    <title>local weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                <div class="panel panel-success">
+                      <div class="panel-heading text-center">
+                            <h3 class="panel-title" id="location"></h3>
+                      </div>
+                      <div class="panel-body">
+                          <div class="row" id="local-time">
+                              <span></span>
+                          </div>
+                          <div class="row">
+                            <div class="col-xs-2"><span id="icon"><i class="wi"></i></span></div>
+                            <div class="col-xs-2 col-xs-offset-2 col-sm-offset-1" id="main">
+                                <span id="main-weather"></span>
+                                <div id="description"><span></span></div>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-xs-12 text-center" id="temp">
+                                  <span></span>
+                                  <i class="wi wi-celsius"></i>
+                              </div>
+                          </div>
+                        <div class="row">
+                              <div class="col-xs-12 text-center" id="wind">
+                                  <i class="wi wi-wind"></i>
+                                  <span></span>
+                                  <i class="wi wi-strong-wind"></i>
+                              </div>
+                        </div> 
+                      </div>
+                      <div class="panel-footer">
+                          <div class="row">
+                              <div class="col-xs-4 text-center" id="sunrise">
+                                  <i class="wi wi-sunrise"></i>
+                                  <span></span>
+                              </div>
+                              <div class="col-xs-4 text-center" id="humidity">
+                                  <i class="wi wi-humidity"></i>
+                                  <span></span>
+                              </div>
+                              <div class="col-xs-4 text-center" id="sunset">
+                                  <i class="wi wi-sunset"></i>
+                                  <span></span>
+                              </div>
+                          </div>
+                      </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
