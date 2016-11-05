@@ -1,0 +1,50 @@
+/*panel-heading : city, country code*/
+.panel{
+  margin-top: 5%;
+}
+#location{
+    font-size: 2em;
+}
+/*panel body : local date*/
+#local-time span{
+    display:block;
+    float:right;
+    padding: 1%;
+}
+/*panel-body : weather icon*/
+#icon{
+    margin-left: 5%;
+    font-size: 9em;
+}
+/*panel-body : weather description*/
+#main{
+    margin-top:3%;
+}
+#main-weather{
+    font-weight: bold;
+    font-size: 2em;
+}
+#description{
+    opacity: 0.7;
+}
+/*panel-body : temperature*/
+#temp{
+    margin-top: 5%;
+    font-size: 8em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#temp span{
+    cursor: pointer;
+}
+/*panel-body : wind info*/
+#wind{
+    font-size: 1.5em;
+    margin-bottom:30%;
+}
+/*panel-footer*/
+#sunrise, #humidity, #sunset{
+    font-size: 1.5em;
+}
